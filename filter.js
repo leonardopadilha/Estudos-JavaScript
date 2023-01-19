@@ -45,3 +45,9 @@ console.log()
 const maior_idade = alunos.filter(maior => maior.idade > 20);
 console.log(maior_idade[0].nome)
 console.log(maior_idade)
+
+const sobrenome = " Silva";
+
+//spread operator
+const nomeCompleto = [...maior_idade[0].nome, ...sobrenome]
+console.log(nomeCompleto.join(''))

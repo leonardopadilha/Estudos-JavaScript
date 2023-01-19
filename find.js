@@ -22,3 +22,8 @@ const aluno_encontrado = alunos.find(function(aluno_pesquisado) {
 
 console.log(aluno_encontrado);
 
+const sobrenome = "Santos";
+
+const nome_completo = [...aluno_encontrado.nome, " " , ...sobrenome]
+console.log(nome_completo.join(''));
+

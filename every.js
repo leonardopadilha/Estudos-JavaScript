@@ -13,6 +13,7 @@ for (let i = 0; i < alunos.length; i++) {
 
 console.log(todosAlunosDeMaior);
 
+// Every verifica se todos os elementos atendem a condição
 let todosAlunosDeMaiorEvery = alunos.every(function(maior_idade) {
     return maior_idade.idade >= 18;
 });

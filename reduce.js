@@ -36,6 +36,6 @@ const nomes = alunos.reduce(function(arrayNomes, aluno) {
     arrayNomes.push(aluno.nome);
     //console.log(arrayNomes + "------")
     return arrayNomes;
-}, [])
+}, []);
 
 console.log(nomes);

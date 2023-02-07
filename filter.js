@@ -42,7 +42,7 @@ console.log()
 
 // --------------------- ---------------------------- ---------------------------
 
-const maior_idade = alunos.filter(maior => maior.idade > 20);
+const maior_idade = alunos.filter(maior => maior.idade > 18);
 console.log(maior_idade[0].nome)
 console.log(maior_idade)
 

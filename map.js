@@ -14,3 +14,6 @@ const dobro_map = numeros.map(function(numero) {
 
 console.log(dobro_map)
 //console.log(numeros.length)
+
+const novoArray = numeros.map(item => item * 4);
+console.log(novoArray);
